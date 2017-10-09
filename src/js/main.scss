@@ -1,0 +1,42 @@
+@import url('../css/bootstrap.css');
+
+.hidden {
+    display:none;
+}
+
+body {
+    background:#333;
+    color:#fff;
+}
+
+.game {
+    display: flex;
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+
+    .main-content {
+        margin-top:40px;
+        padding:20px;
+    }
+}
+
+a:not([href]):not([tabindex]) {
+    color: red;
+    cursor: pointer;
+}
+
+#gameview {
+    margin-top:20px;
+}
+
+footer {
+    margin-top:30px;
+    text-align: center;
+}
