@@ -48,5 +48,8 @@
     "webpack-core": "^0.6.9",
     "webpack-dev-server": "^2.4.1"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "html-loader": "^0.5.1"
+  }
 }
